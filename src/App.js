@@ -1,7 +1,26 @@
+import BackgroundStory from './components/BackgroundStory'
+import BackgroundStoryImages from './components/BackgroundStoryImages'
+import Main from './components/Main'
+import Navbar from './components/Navbar'
 import logo from './logo.svg'
 
 function App() {
-    return <div className="bg-green-600">Lorem, ipsum dolor.</div>
+    return (
+        <div className="bg-black min-h-screen text-white font-open-sans">
+            <div className="py-2 md:py-16">
+                <Navbar />
+                <div className="mt-36">
+                    <Main />
+                </div>
+                <div className="mt-36 flex items-center justify-between space-x-8">
+                    <BackgroundStory />
+                </div>
+                <div className="mt-24 bg-semi-black">
+                    <BackgroundStoryImages />
+                </div>
+            </div>
+        </div>
+    )
 }
 
 export default App
