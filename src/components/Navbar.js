@@ -1,4 +1,5 @@
 import React from 'react'
+import Logo from '../Logo.png'
 
 function Navbar(props) {
     const onContentIndexClick = () => {}
@@ -7,7 +8,9 @@ function Navbar(props) {
         <div className="px-12 md:px-20">
             <div className="absolute md:static w-full right-0 top-0">
                 <nav className="hidden md:flex justify-between items-center">
-                    <div className="w-12 h-12 rounded-full bg-indigo-600"></div>
+                    <div className="w-12 h-12 rounded-full bg-black">
+                        <img src={Logo} className="rounded-full object-cover" alt="" />
+                    </div>
                     {/* <a href="/" className="h-12 w-12">
                     <div className="rounded-full bg-red-500"></div>
                 </a> */}

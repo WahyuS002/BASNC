@@ -2,7 +2,7 @@ import BackgroundStory from './components/BackgroundStory'
 import BackgroundStoryImages from './components/BackgroundStoryImages'
 import Main from './components/Main'
 import Navbar from './components/Navbar'
-import logo from './logo.svg'
+import Roadmap from './components/Roadmap'
 
 function App() {
     return (
@@ -17,6 +17,9 @@ function App() {
                 </div>
                 <div className="mt-24 bg-semi-black">
                     <BackgroundStoryImages />
+                </div>
+                <div className="mt-36">
+                    <Roadmap />
                 </div>
             </div>
         </div>

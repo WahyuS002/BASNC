@@ -7,7 +7,7 @@ function BackgroundStoryImages(props) {
             <div className="grid grid-cols-4 gap-6">
                 <div>
                     <img className="rounded-2xl" src={Images.Image1} alt="" />
-                    <p className="text-center mt-8 font-bold text-2xl tracking-wide">Goku</p>
+                    <p className="text-center mt-8 font-bold text-2xl tracking-wide">Ghost Rider</p>
                 </div>
                 <div>
                     <img className="rounded-2xl" src={Images.Image2} alt="" />
