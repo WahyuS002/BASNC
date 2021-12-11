@@ -15,7 +15,7 @@ function App() {
                 <div className="mt-36 flex items-center justify-between space-x-8">
                     <BackgroundStory />
                 </div>
-                <div className="mt-24 bg-semi-black">
+                <div className="mt-24 bg-neutral-900">
                     <BackgroundStoryImages />
                 </div>
                 <div className="mt-36">

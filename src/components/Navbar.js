@@ -1,7 +1,7 @@
 import React from 'react'
 import Logo from '../Logo.png'
 
-function Navbar(props) {
+function Navbar() {
     const onContentIndexClick = () => {}
 
     return (
@@ -15,17 +15,17 @@ function Navbar(props) {
                     <div className="rounded-full bg-red-500"></div>
                 </a> */}
                     <div className="space-x-16 font-semibold text-lg">
-                        <a className="cursor-pointer hover:text-red-600 transition-all duration-300 ease-in-out" href="#/" onClick={() => onContentIndexClick('home')}>
+                        <a className="cursor-pointer hover:text-indigo-600 transition-all duration-300 ease-in-out" href="#/" onClick={() => onContentIndexClick('home')}>
                             Home
                         </a>
-                        <a className="cursor-pointer hover:text-red-600 transition-all duration-300 ease-in-out" href="#/" onClick={() => onContentIndexClick('backgroundStory')}>
+                        <a className="cursor-pointer hover:text-indigo-600 transition-all duration-300 ease-in-out" href="#/" onClick={() => onContentIndexClick('backgroundStory')}>
                             Background Story
                         </a>
-                        <a className="cursor-pointer hover:text-red-600 transition-all duration-300 ease-in-out" href="#/" onClick={() => onContentIndexClick('roadmap')}>
+                        <a className="cursor-pointer hover:text-indigo-600 transition-all duration-300 ease-in-out" href="#/" onClick={() => onContentIndexClick('roadmap')}>
                             Roadmap
                         </a>
                     </div>
-                    <button className="bg-indigo-600 px-8 py-4 font-bold rounded-xl">Connect a Wallet</button>
+                    <button className="bg-indigo-600 hover:bg-indigo-800 transition-all duration-300 ease-in-out px-8 py-4 font-bold text-lg rounded-xl">Connect a Wallet</button>
                 </nav>
                 <div className="flex md:hidden justify-between items-center w-full bg-black p-4">
                     <div className="flex items-center space-x-4">
