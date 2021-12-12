@@ -5,7 +5,7 @@ function Main(props) {
     return (
         <div className="px-12 md:px-20" id="home">
             <div className="flex flex-col md:flex-row items-center justify-between">
-                <div className="w-full md:w-1/3 space-y-4">
+                <div className="w-full md:w-1/3 space-y-4" data-aos="fade-left">
                     <h1 className="text-4xl md:text-6xl font-bold leading-tight">Bored Ape Skull Not Club</h1>
                     <p className="text-gray-400">
                         Bored Ape Skull Not Club is a Digital Art Collection of NFTs. There will be 999 Limited Unique Cartoons in this NFT collection. The Gang is open! Skull Ape with us.
@@ -53,7 +53,7 @@ function Main(props) {
                         </a>
                     </div>
                 </div>
-                <div className="w-full md:w-1/2 mt-12 md:mt-0">
+                <div className="w-full md:w-1/2 mt-12 md:mt-0" data-aos="fade-down-left" data-aos-delay="300">
                     <img className="rounded-xl md:rounded-3xl" src={Hero} alt="" />
                 </div>
             </div>

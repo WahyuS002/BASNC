@@ -3,7 +3,7 @@ import { Fragment } from 'react'
 
 export default function HamburgerMenu() {
     return (
-        <div className="block md:hidden text-right">
+        <div className="block md:hidden text-right z-10">
             <Menu as="div" className="relative inline-block text-left">
                 <div>
                     <Menu.Button className="inline-flex justify-center w-full px-4 py-2 text-sm font-medium text-white bg-gray-500 rounded-md bg-opacity-20 hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">

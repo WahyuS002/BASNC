@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Roadmap(props) {
+function Roadmap() {
     return (
-        <div className="px-12 md:px-20" id="roadmap">
+        <div className="px-12 md:px-20 scroll-mt-28" id="roadmap" data-aos="fade-up" data-aos-delay="300">
             <h2 className="text-3xl md:text-5xl font-bold leading-tight mb-24 text-center">Our Roadmap</h2>
             <div className="relative max-w-7xl h-full">
                 <div className="absolute left-0 md:left-1/2 ml-4 md:ml-0 border-opacity-20 border-gray-500 h-full border"></div>
