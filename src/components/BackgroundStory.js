@@ -2,7 +2,7 @@ import React from 'react'
 
 function BackgroundStory(props) {
     return (
-        <div className="px-12 md:px-20">
+        <div className="px-12 md:px-20" id="background_story">
             <div className="flex items-center justify-between">
                 <div className="w-1/5">
                     <h2 className="text-5xl font-bold leading-tight">Background Story</h2>

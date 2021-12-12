@@ -2,8 +2,6 @@ import React from 'react'
 import Logo from '../Logo.png'
 
 function Navbar() {
-    const onContentIndexClick = () => {}
-
     return (
         <div className="px-12 md:px-20">
             <div className="absolute md:static w-full right-0 top-0">
@@ -15,17 +13,24 @@ function Navbar() {
                     <div className="rounded-full bg-red-500"></div>
                 </a> */}
                     <div className="space-x-16 font-semibold text-lg">
-                        <a className="cursor-pointer hover:text-indigo-600 transition-all duration-300 ease-in-out" href="#/" onClick={() => onContentIndexClick('home')}>
+                        <a className="cursor-pointer hover:text-indigo-600 transition-all duration-300 ease-in-out" href="#home">
                             Home
                         </a>
-                        <a className="cursor-pointer hover:text-indigo-600 transition-all duration-300 ease-in-out" href="#/" onClick={() => onContentIndexClick('backgroundStory')}>
+                        <a className="cursor-pointer hover:text-indigo-600 transition-all duration-300 ease-in-out" href="#background_story">
                             Background Story
                         </a>
-                        <a className="cursor-pointer hover:text-indigo-600 transition-all duration-300 ease-in-out" href="#/" onClick={() => onContentIndexClick('roadmap')}>
+                        <a className="cursor-pointer hover:text-indigo-600 transition-all duration-300 ease-in-out" href="#roadmap">
                             Roadmap
                         </a>
                     </div>
-                    <button className="bg-indigo-600 hover:bg-indigo-800 transition-all duration-300 ease-in-out px-8 py-4 font-bold text-lg rounded-xl">Connect a Wallet</button>
+                    <a
+                        href="https://opensea.io/collection/boredapeskullnotclub"
+                        target="_blank"
+                        className="bg-indigo-600 hover:bg-indigo-800 transition-all duration-300 ease-in-out px-8 py-4 font-bold text-lg rounded-xl"
+                        rel="noreferrer"
+                    >
+                        Buy on Opensea
+                    </a>
                 </nav>
                 <div className="flex md:hidden justify-between items-center w-full bg-black p-4">
                     <div className="flex items-center space-x-4">
