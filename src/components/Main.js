@@ -4,9 +4,9 @@ import Hero from '../images/Hero.png'
 function Main(props) {
     return (
         <div className="px-12 md:px-20" id="home">
-            <div className="flex items-center justify-between">
-                <div className="w-1/3 space-y-4">
-                    <h1 className="text-6xl font-bold leading-tight">Bored Ape Skull Not Club</h1>
+            <div className="flex flex-col md:flex-row items-center justify-between">
+                <div className="w-full md:w-1/3 space-y-4">
+                    <h1 className="text-4xl md:text-6xl font-bold leading-tight">Bored Ape Skull Not Club</h1>
                     <p className="text-gray-400">
                         Bored Ape Skull Not Club is a Digital Art Collection of NFTs. There will be 999 Limited Unique Cartoons in this NFT collection. The Gang is open! Skull Ape with us.
                     </p>
@@ -53,8 +53,8 @@ function Main(props) {
                         </a>
                     </div>
                 </div>
-                <div className="w-1/2">
-                    <img className="rounded-3xl" src={Hero} alt="" />
+                <div className="w-full md:w-1/2 mt-12 md:mt-0">
+                    <img className="rounded-xl md:rounded-3xl" src={Hero} alt="" />
                 </div>
             </div>
         </div>

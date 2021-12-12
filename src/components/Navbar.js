@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from '../Logo.png'
+import HamburgerMenu from './HamburgerMenu'
 
 function Navbar() {
     return (
@@ -9,9 +10,6 @@ function Navbar() {
                     <div className="w-12 h-12 rounded-full bg-black">
                         <img src={Logo} className="rounded-full object-cover" alt="" />
                     </div>
-                    {/* <a href="/" className="h-12 w-12">
-                    <div className="rounded-full bg-red-500"></div>
-                </a> */}
                     <div className="space-x-16 font-semibold text-lg">
                         <a className="cursor-pointer hover:text-indigo-600 transition-all duration-300 ease-in-out" href="#home">
                             Home
@@ -34,10 +32,10 @@ function Navbar() {
                 </nav>
                 <div className="flex md:hidden justify-between items-center w-full bg-black p-4">
                     <div className="flex items-center space-x-4">
-                        <img className="w-8 h-8 rounded-full" alt="" />
+                        <img src={Logo} className="w-8 h-8 rounded-full" alt="" />
                         <p className="text-sm font-bold uppercase">BASCN</p>
                     </div>
-                    {/* <HamburgerMenu /> */}
+                    <HamburgerMenu />
                 </div>
             </div>
         </div>
