@@ -39,6 +39,18 @@ export default function HamburgerMenu() {
                                 </a>
                             </Menu.Item>
                         </div>
+                        <div className="p-3">
+                            <Menu.Item>
+                                <a
+                                    href="https://opensea.io/collection/boredapeskullnotclub"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="font-medium text-white group flex rounded-md items-center w-full p-2 text-base bg-indigo-600 hover:bg-indigo-800 justify-center"
+                                >
+                                    Buy on Opensea
+                                </a>
+                            </Menu.Item>
+                        </div>
                     </Menu.Items>
                 </Transition>
             </Menu>
