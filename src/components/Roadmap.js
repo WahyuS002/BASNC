@@ -59,7 +59,7 @@ function Roadmap() {
                     </div>
                     <div className="bg-gray-900 rounded-xl  w-full md:w-5/12 p-6 md:px-8 md:py-6 ml-8 md:ml-0">
                         <h3 className="font-bold text-lg">50 Sold 💰</h3>
-                        <p className="mt-3 leading-relaxed tracking-wide text-gray-400">Public giveaways. launch webdapp minting.</p>
+                        <p className="mt-3 leading-relaxed tracking-wide text-gray-400">Launch website.</p>
                     </div>
                 </div>
                 <div className="mb-8 flex justify-between items-center w-full md:flex-row-reverse">
