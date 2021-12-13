@@ -53,7 +53,7 @@ function Main(props) {
                         </a>
                     </div>
                 </div>
-                <div className="w-full md:w-1/2 mt-12 md:mt-0" data-aos="fade-down-left">
+                <div className="w-full md:w-1/2 mt-12 md:mt-0" data-aos="fade-left">
                     <img className="rounded-xl md:rounded-3xl" src={Hero} alt="" />
                 </div>
             </div>
