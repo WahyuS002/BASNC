@@ -6,9 +6,11 @@ function Main(props) {
         <div className="px-12 md:px-20" id="home">
             <div className="flex flex-col md:flex-row items-center justify-between">
                 <div className="w-full md:w-1/3 space-y-4" data-aos="fade-left">
-                    <h1 className="text-4xl md:text-6xl font-bold leading-tight">Bored Ape Skull Not Club</h1>
+                    <h1 className="text-4xl md:text-5xl font-bold leading-tight upper">
+                        Welcome To <br></br> The Bored Ape Skull Not Club
+                    </h1>
                     <p className="text-gray-400">
-                        Bored Ape Skull Not Club is a Digital Art Collection of NFTs. There will be 999 Limited Unique Cartoons in this NFT collection. The Gang is open! Skull Ape with us.
+                        Bored Ape Skull Not Club is a Digital Art Collection of NFTs. There will be 999 Limited Unique Cartoons in this NFT collection. The Gang is open! Ape Skull with us.
                     </p>
                     <div className="flex items-center space-x-6">
                         <a href="https://twitter.com/boredapeskullNC" target="_blank" rel="noreferrer">
