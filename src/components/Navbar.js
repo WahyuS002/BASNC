@@ -33,7 +33,7 @@ function Navbar() {
                 <div className="flex md:hidden justify-between items-center w-full bg-black p-4">
                     <div className="flex items-center space-x-4">
                         <img src={Logo} className="w-8 h-8 rounded-full" alt="" />
-                        <p className="text-sm font-bold uppercase">BASCN</p>
+                        <p className="text-sm font-bold uppercase">BASNC</p>
                     </div>
                     <HamburgerMenu />
                 </div>
