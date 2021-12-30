@@ -5,7 +5,7 @@ function Main(props) {
     return (
         <div className="px-12 md:px-20" id="home">
             <div className="flex flex-col md:flex-row items-center justify-between">
-                <div className="w-full md:w-1/3 space-y-4" data-aos="fade-left">
+                <div className="w-full md:w-1/3 space-y-4">
                     <h1 className="text-4xl md:text-5xl font-bold leading-tight upper">
                         Welcome To <br></br> The Bored Ape Skull Not Club
                     </h1>
@@ -55,7 +55,7 @@ function Main(props) {
                         </a>
                     </div>
                 </div>
-                <div className="w-full md:w-1/2 mt-12 md:mt-0" data-aos="fade-left">
+                <div className="w-full md:w-1/2 mt-12 md:mt-0">
                     <img className="rounded-xl md:rounded-3xl" src={Hero} alt="" />
                 </div>
             </div>
