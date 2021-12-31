@@ -3,7 +3,7 @@ import Images from '../assets/BackgroundStoryImages'
 
 function BackgroundStoryImages(props) {
     return (
-        <div className="w-full py-16 px-12 md:px-20" data-aos="fade-up" data-aos-delay="500">
+        <div className="w-full py-16 px-12 md:px-20">
             <div className="grid md:grid-cols-4 gap-6">
                 <div>
                     <img className="rounded-2xl" src={Images.Image1} alt="" />
